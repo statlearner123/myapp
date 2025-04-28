@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "R Basics",
+      "subsections": [
+        {
+          "id": 1,
+          "title": "Read a CSV file (.csv)",
+          "exercise": {
+            "pre_exercise_code": "# This will get executed each time the exercise gets initialized\nb = 6",
+            "sample_code": "# Read a CSV file named 'data.csv'\n\n\n",
+            "solution": "# Read a CSV file named 'data.csv'\ndata <- read.csv('data.csv')",
+            "sct": "test_object('data')\nsuccess_msg('Great job!')",
+            "hint": "Use read.csv() to read the CSV file."
+          }
+        },
+        {
+          "id": 2,
+          "title": "Read a character-delimited file (.txt)",
+          "exercise": {
+            "pre_exercise_code": "",
+            "sample_code": "# Read a character-delimited file named 'data.txt'\n\n\n",
+            "solution": "# Read a character-delimited file named 'data.txt'\ndata <- read.delim('data.txt')",
+            "sct": "test_object('data')\nsuccess_msg('Well done!')",
+            "hint": "Use read.delim() to read the text file."
+          }
+        }
+      ]
+    }
+  ]
+}
